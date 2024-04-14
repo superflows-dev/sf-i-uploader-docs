@@ -29,12 +29,20 @@ import {SfIUploader} from 'https://esm.run/sf-i-uploader@1.0.42/sf-i-uploader.js
 
 Add the required CSS files to style the analyzer:
 
+
+#### Uploader CSS
+
 ```html
 
-<!-- Stylesheet -->
-<link href="https://superflows-myuploads.s3.ap-south-1.amazonaws.com/sfiuploader.css" rel="stylesheet" />
+<link href="sfiuploader.css" rel="stylesheet" />
 
-<!-- Font icons -->
+```
+The vanilla stylesheet is available <a target="_blank" href="https://stackblitz.com/edit/stackblitz-starters-wt34hh?file=index.html,sfiuploader.css">here</a>.
+
+#### Supporting CSS
+
+```html
+
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
 
