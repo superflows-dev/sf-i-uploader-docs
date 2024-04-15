@@ -20,7 +20,7 @@ Add the following script tag to import the necessary JavaScript files:
 
 <script type="module">
 import {LitElement, html, css} from 'https://esm.run/lit-element/lit-element.js';
-import {SfIUploader} from 'https://esm.run/sf-i-uploader@1.0.47/sf-i-uploader.js';
+import {SfIUploader} from 'https://esm.run/sf-i-uploader@1.0.56/sf-i-uploader.js';
 import {SfIElasticText} from 'https://esm.run/sf-i-elastic-text/sf-i-elastic-text.js';
 </script>
 
