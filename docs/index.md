@@ -94,7 +94,7 @@ To ensure proper integration, replace `callbackUrlHost` and `callbackUrlPath` wi
 
 <sf-i-uploader 
     callbackUrlHost="abc.net" 
-    callbackUrlPath="/processresult">
+    callbackUrlPath="processresult">
 </sf-i-uploader>
 
 ```
@@ -142,7 +142,7 @@ Specify your webhook URL by setting the `callbackUrlHost` and the `callbackUrlPa
 <sf-i-uploader 
     docType="aadhar"
     callbackUrlHost="abc.net" 
-    callbackUrlPath="/processresult">
+    callbackUrlPath="processresult">
 </sf-i-uploader>
 
 ```
