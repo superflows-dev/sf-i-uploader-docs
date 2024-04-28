@@ -20,7 +20,7 @@ Add the following script tag to import the necessary JavaScript files:
 
 <script type="module">
 import {LitElement, html, css} from 'https://esm.run/lit-element/lit-element.js';
-import {SfIUploader} from 'https://esm.run/sf-i-uploader@1.0.57/sf-i-uploader.js';
+import {SfIUploader} from 'https://esm.run/sf-i-uploader@1.0.59/sf-i-uploader.js';
 import {SfIElasticText} from 'https://esm.run/sf-i-elastic-text/sf-i-elastic-text.js';
 </script>
 
@@ -167,7 +167,7 @@ Specify your webhook URL by setting the `callbackUrlHost` and the `callbackUrlPa
 |----------|---------- |----------|-------------|---------------------------|---------------|
 | apiId | yes | alphanumeric string | Api key | 1peg5170d3 is the value for the free plan. For a pro plan, you will receive a personalized key | "qegqubqm14" |
 | allowedExtensions | no | encoded json array string | JPG, PNG and PDF files are supported. This array allows you to enable / disable / choose one or more of these. | [&quot;jpg&quot;,&quot;png&quot;,&quot;pdf&quot;] will allow all three extensions. [&quot;jpg&quot;] will only allow the PDF extension. | "[&quot;jpg&quot;,&quot;png&quot;,&quot;pdf&quot;]" |
-| docType | no | string | Code for the document type validation | "aadhar" for Aadhar card, "pan" for PAN card. The entire document type code reference is available here. | "aadhar" |
+| docType | no | string | Code for the document type validation | "aadhar" for Aadhar card, "pan" for PAN card. The entire document type code reference is available here. | "" |
 | maxSize | no | string | Maximum allowed fize size | "51200" for 50KB | "512000" |
 | callbackUrlHost | no | url string | If provided, the uploader calls the https://callbackUrlHost/callbackUrlPath a payload containing the upload and processing result. | "example.com" for callbackUrlHost and "processresult" for callbackUrlPath results in a webhook call to https://example.com/processresult. |
 | callbackUrlPath | no | url path string | If provided, the uploader calls the https://callbackUrlHost/callbackUrlPath with a payload containing the upload and processing result. | "example.com" for callbackUrlHost and "processresult" for callbackUrlPath results in a webhook call to https://example.com/processresult. |
