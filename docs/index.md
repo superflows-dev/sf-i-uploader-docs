@@ -38,7 +38,7 @@ Add the required CSS files to style the analyzer:
 <link href="sfiuploader.css" rel="stylesheet" />
 
 ```
-The vanilla stylesheet is available <a target="_blank" href="https://stackblitz.com/edit/stackblitz-starters-wt34hh?file=index.html,sfiuploader.css">here</a>.
+The vanilla stylesheet is available <a target="_blank" href="https://stackblitz.com/edit/stackblitz-starters-muagkn?file=index.html,sfiuploader.css">here</a>.
 
 #### Supporting CSS
 
@@ -104,7 +104,7 @@ To ensure proper integration, replace `callbackUrlHost` and `callbackUrlPath` wi
 
 Check out the live demo on StackBlitz for a quick demonstration.
 
-[<img src="https://developer.stackblitz.com/img/open_in_stackblitz.svg">](https://stackblitz.com/edit/stackblitz-starters-wt34hh?file=index.html)
+[<img src="https://developer.stackblitz.com/img/open_in_stackblitz.svg">](https://stackblitz.com/edit/stackblitz-starters-muagkn?file=index.html)
 
 ## Use Cases
 
