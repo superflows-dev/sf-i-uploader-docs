@@ -20,7 +20,7 @@ Add the following script tag to import the necessary JavaScript files:
 
 <script type="module">
 import {LitElement, html, css} from 'https://esm.run/lit-element/lit-element.js';
-import {SfIUploader} from 'https://esm.run/sf-i-uploader@1.0.61/sf-i-uploader.js';
+import {SfIUploader} from 'https://esm.run/sf-i-uploader@1.0.66/sf-i-uploader.js';
 import {SfIElasticText} from 'https://esm.run/sf-i-elastic-text/sf-i-elastic-text.js';
 </script>
 
@@ -189,6 +189,7 @@ Specify your webhook URL by setting the `callbackUrlHost` and the `callbackUrlPa
 | PAN | "pan" | PAN (Permanent Account Number) is a unique alphanumeric identifier issued by the Income Tax Department of India to individuals and entities for tracking financial transactions and filing taxes. |
 | Voter ID | "voterid" | Voter ID, issued by the Election Commission of India (ECI), is a unique identification card that enables eligible Indian citizens to participate in the electoral process by casting their votes in elections. |
 | Passport (India) | "passportin" | The Indian passport is an official document issued by the Government of India, serving as proof of nationality and identity for international travel. |
+| Income Tax Return Acknowledgement (India) | "itrack" | The Income Tax Return Acknowledgement (India) is an official document issued by the Income Tax Department of Government of India, serving as proof of filing of income tax return. |
 
 
 
