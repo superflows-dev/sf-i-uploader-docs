@@ -20,7 +20,7 @@ Add the following script tag to import the necessary JavaScript files:
 
 <script type="module">
 import {LitElement, html, css} from 'https://esm.run/lit-element/lit-element.js';
-import {SfIUploader} from 'https://esm.run/sf-i-uploader@1.0.66/sf-i-uploader.js';
+import {SfIUploader} from 'https://esm.run/sf-i-uploader@1.0.68/sf-i-uploader.js';
 import {SfIElasticText} from 'https://esm.run/sf-i-elastic-text/sf-i-elastic-text.js';
 </script>
 
@@ -190,6 +190,7 @@ Specify your webhook URL by setting the `callbackUrlHost` and the `callbackUrlPa
 | Voter ID | "voterid" | Voter ID, issued by the Election Commission of India (ECI), is a unique identification card that enables eligible Indian citizens to participate in the electoral process by casting their votes in elections. |
 | Passport (India) | "passportin" | The Indian passport is an official document issued by the Government of India, serving as proof of nationality and identity for international travel. |
 | Income Tax Return Acknowledgement (India) | "itrack" | The Income Tax Return Acknowledgement (India) is an official document issued by the Income Tax Department of Government of India, serving as proof of filing of income tax return. |
+| Tax Deducted at Source Certificate(India) | "tdscert" | The Tax Deducted at Source Certificate (India) is an official document issued by the TDS centralized processing cell of the Income Tax Department of Government of India, serving as proof of TDS paid to government. |
 
 
 
