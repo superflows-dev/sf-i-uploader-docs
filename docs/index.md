@@ -191,6 +191,8 @@ Specify your webhook URL by setting the `callbackUrlHost` and the `callbackUrlPa
 | Passport (India) | "passportin" | The Indian passport is an official document issued by the Government of India, serving as proof of nationality and identity for international travel. |
 | Income Tax Return Acknowledgement (India) | "itrack" | The Income Tax Return Acknowledgement (India) is an official document issued by the Income Tax Department of Government of India, serving as proof of filing of income tax return. |
 | Tax Deducted at Source Certificate(India) | "tdscert" | The Tax Deducted at Source Certificate (India) is an official document issued by the TDS centralized processing cell of the Income Tax Department of Government of India, serving as proof of TDS paid to government. |
+| FORM GSTR-1 (India) | "gstr1" | The FORM GSTR-1 (India) is an official document issued by the Goods and Services Tax (GST) Authority of Government of India, serving as proof of monthly GST paid to the government. |
+| FORM GSTR-3B (India) | "gstr3b" | The FORM GSTR-3B (India) is an official document issued by the Goods and Services Tax (GST) Authority of Government of India, serving as proof of quarterly GST paid to the government. |
 
 
 
